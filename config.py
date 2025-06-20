@@ -82,7 +82,7 @@ STICKERS = [
 ]
 HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
 PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
-PLAYLIST_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg""
+PLAYLIST_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
 STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
