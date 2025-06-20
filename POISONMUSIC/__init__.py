@@ -1,8 +1,8 @@
-from ANNIEMUSIC.core.bot import JARVIS
-from ANNIEMUSIC.core.dir import dirr
-from ANNIEMUSIC.core.git import git
-from ANNIEMUSIC.core.userbot import Userbot
-from ANNIEMUSIC.misc import dbb, heroku
+from POISONMUSIC.core.bot import POISON
+from POISONMUSIC.core.dir import dirr
+from POISONMUSIC.core.git import git
+from POISONMUSIC.core.userbot import Userbot
+from POISONMUSIC.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = JARVIS()
+app = POISON()
 userbot = Userbot()
 
 
