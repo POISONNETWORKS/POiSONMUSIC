@@ -10,7 +10,7 @@ from ..logging import LOGGER
 class POISON(Client):
     def __init__(self):
         super().__init__(
-            name="PoisonXMusic",
+            name="AnnieXMusic",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
@@ -18,7 +18,7 @@ class POISON(Client):
             max_concurrent_transmissions=7,
             workers=50,
         )
-        LOGGER(__name__).info("Bot client initialized.")
+        LOGGER(__name__).info("Bᴏᴛ ᴄʟɪᴇɴᴛ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ. 🙈")
         
     async def start(self):
         await super().start()
@@ -49,4 +49,4 @@ class POISON(Client):
                 "Please promote your bot as an admin in your log group/channel."
             )
             sys.exit()
-        LOGGER(__name__).info(f"Music Bot Started as {self.name}")
+        LOGGER(__name__).info(f"Mᴜsɪᴄ Bᴏᴛ Sᴛᴀʀᴛᴇᴅ ᴀs {self.name} 💀")
